@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRT Styled Webpage</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="terminal">
+      <pre>
+            <code>
+module.exports = {
+    config: {
+        // default font size in pixels for all tabs
+        fontSize: 12,
+        
+        // font family with optional fallbacks
+        fontFamily: 'Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+        
+        // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwv or cmyk)
+        cursorColor: 'rgba(248,28,229,0.8)',
+        
+        // `BEAM` for |, `UNDERLINE` for _, `BLOCK` for █
+        cursorShape: 'BLOCK',
+        
+        // color of the text
+        foregroundColor: '#fff',
+        
+        // terminal background color
+        backgroundColor: '#000',
+        
+        // border color (window, tabs)
+        borderColor: '#333',
+        
+        // custom css to embed in the main window
+        css: '',
+        
+        // custom css to embed in the terminal window
+        termCSS: ''
+    }
+};
+            </code>
+        </pre>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
