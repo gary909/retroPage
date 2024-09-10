@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
         setTimeout(typeCharacter, typingSpeed);
       }
     } else {
-      // cursor.style.display = "none"; // Hide cursor when typing is complete
+      cursor.style.display = "none"; // Hide cursor when typing is complete
     }
   }
 
