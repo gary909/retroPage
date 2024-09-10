@@ -8,40 +8,31 @@
   </head>
   <body>
     <div class="terminal">
-      <pre>
-            <code>
-module.exports = {
-    config: {
-        // default font size in pixels for all tabs
-        fontSize: 12,
-        
-        // font family with optional fallbacks
-        fontFamily: 'Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
-        
-        // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwv or cmyk)
-        cursorColor: 'rgba(248,28,229,0.8)',
-        
-        // `BEAM` for |, `UNDERLINE` for _, `BLOCK` for █
-        cursorShape: 'BLOCK',
-        
-        // color of the text
-        foregroundColor: '#fff',
-        
-        // terminal background color
-        backgroundColor: '#000',
-        
-        // border color (window, tabs)
-        borderColor: '#333',
-        
-        // custom css to embed in the main window
-        css: '',
-        
-        // custom css to embed in the terminal window
-        termCSS: ''
-    }
-};
-            </code>
+      <pre id="terminal-text">
+            <span data-line="module.exports = {" class="line"></span>
+            <span data-line="    config: {" class="line"></span>
+            <span data-line="        // default font size in pixels for all tabs" class="line"></span>
+            <span data-line="        fontSize: 12," class="line"></span>
+            <span data-line="        // font family with optional fallbacks" class="line"></span>
+            <span data-line="        fontFamily: 'Menlo, &quot;DejaVu Sans Mono&quot;, Consolas, &quot;Lucida Console&quot;, monospace'," class="line"></span>
+            <span data-line="        // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwv or cmyk)" class="line"></span>
+            <span data-line="        cursorColor: 'rgba(248,28,229,0.8)'," class="line"></span>
+            <span data-line="        // 'BEAM' for |, 'UNDERLINE' for _, 'BLOCK' for █" class="line"></span>
+            <span data-line="        cursorShape: 'BLOCK'," class="line"></span>
+            <span data-line="        // color of the text" class="line"></span>
+            <span data-line="        foregroundColor: '#fff'," class="line"></span>
+            <span data-line="        // terminal background color" class="line"></span>
+            <span data-line="        backgroundColor: '#000'," class="line"></span>
+            <span data-line="        // border color (window, tabs)" class="line"></span>
+            <span data-line="        borderColor: '#333'," class="line"></span>
+            <span data-line="        // custom css to embed in the main window" class="line"></span>
+            <span data-line="        css: ''," class="line"></span>
+            <span data-line="        // custom css to embed in the terminal window" class="line"></span>
+            <span data-line="        termCSS: ''" class="line"></span>
+            <span data-line="    }" class="line"></span>
+            <span data-line="};" class="line"></span>
         </pre>
+      <span id="cursor"></span>
     </div>
     <script src="scripts.js"></script>
   </body>
