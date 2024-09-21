@@ -7,23 +7,35 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="terminal">
-      <pre id="terminal-text">
-            <span data-line="module.exports = {" class="line"></span>
-            <span data-line="    config: {" class="line"></span>
-            <span data-line="        // default font size in pixels for all tabs" class="line"></span>
-            <span data-line="        fontSize: 12," class="line"></span>
-            <span data-line="        // font family with optional fallbacks" class="line"></span>
-            <span data-line="        fontFamily: 'Menlo, &quot;DejaVu Sans Mono&quot;, Consolas, &quot;Lucida Console&quot;, monospace'," class="line"></span>
-            <span data-line="        // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwv or cmyk)" class="line"></span>
-            <span data-line="        cursorColor: 'rgba(248,28,229,0.8)'," class="line"></span>
-            <span data-line="        // 'BEAM' for |, 'UNDERLINE' for _, 'BLOCK' for █" class="line"></span>
-            <span data-line="        cursorShape: 'BLOCK'," class="line"></span>
-            <span data-line="    }" class="line"></span>
-            <span data-line="};" class="line"></span>
-        </pre>
-      <span id="cursor"></span>
+    <!-- Splash Screen -->
+    <div id="splash">
+      <img src="DS_Floppy.png" alt="Splash Image" />
     </div>
+
+    <!-- Main Content -->
+    <div id="main-content" style="display: none">
+      <!-- Your main page content goes here -->
+      <div class="terminal">
+        <pre id="terminal-text">
+              <span data-line="module.exports = {" class="line"></span>
+              <span data-line="    config: {" class="line"></span>
+              <span data-line="        // default font size in pixels for all tabs" class="line"></span>
+              <span data-line="        fontSize: 12," class="line"></span>
+              <span data-line="        // font family with optional fallbacks" class="line"></span>
+              <span data-line="        fontFamily: 'Menlo, &quot;DejaVu Sans Mono&quot;, Consolas, &quot;Lucida Console&quot;, monospace'," class="line"></span>
+              <span data-line="        // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwv or cmyk)" class="line"></span>
+              <span data-line="        cursorColor: 'rgba(248,28,229,0.8)'," class="line"></span>
+              <span data-line="        // 'BEAM' for |, 'UNDERLINE' for _, 'BLOCK' for █" class="line"></span>
+              <span data-line="        cursorShape: 'BLOCK'," class="line"></span>
+              <span data-line="    }" class="line"></span>
+              <span data-line="};" class="line"></span>
+          </pre>
+        <span id="cursor"></span>
+      </div>
+      <!-- <h1>Welcome to My Website</h1>
+      <p>Here is the main content of the website.</p> -->
+    </div>
+
     <script src="scripts.js"></script>
   </body>
 </html>
