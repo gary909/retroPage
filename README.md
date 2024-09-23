@@ -1,5 +1,9 @@
 "# retroPage" 
 
+Styling:
+
+![contactGif-ezgif com-optimize](https://github.com/user-attachments/assets/051b71b9-c9db-40b1-a30e-ad567d6649b1)
+
 Combined both screens to make boot screen:
 
 ![diskLoop](https://github.com/user-attachments/assets/55b41341-08a0-4404-a0ca-d492b099475e)
